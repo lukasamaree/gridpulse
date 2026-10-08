@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gridpulse.lukasamaree.chatgpt.site"),
   title: "GridPulse — Electricity Demand Intelligence",
   description: "An independent portfolio project for electricity demand and forecast analytics.",
   openGraph: {
